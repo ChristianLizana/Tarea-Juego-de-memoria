@@ -1,0 +1,28 @@
+
+import UIKit
+
+var numeros = 1..<100
+
+
+for i in numeros {
+
+    if (i % 5 == 0){
+        print ("\(i) Bingo!!")
+    }
+    
+    if (i % 2 == 0){
+        print ("\(i) Par")
+    }
+    
+    if (i % 2 != 0){
+        print ("\(i) Impar")
+    }
+    if (i >= 30 && i <= 40){
+        print ("\(i) Viva Swift")
+    }
+
+}
+
+
+
+
